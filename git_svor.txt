@@ -1,0 +1,42 @@
+#Git spurningar og svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd : "Change directory", færa þig í aðra möppu
+	cd ~ : Setur þig aftur á root
+	ls : Sýnir skrár og möppur í þar sem þú ert staðsettur
+	pwd : Sýnir slóðina að root
+	mkdir : Býr til nýja möppu
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone : Klónar geymslu yfir í nýja skrá
+	git log : Sýnir öll commit skilaboðin sem þú bjóst til
+	git status : Sýnir slóðir sem eru öðruvísi á milli "the index file" og "the current HEAD commit"
+	git diff : Sýnir mismunin á "working tree" og "index"
+	git checkout : Leið til þess að skipta um branch
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff : Sýnir mismunin á "working tree" og "index"
+	b) git diff --staged  : Sýnir breytingar í "the staged area"
+	c) git diff commit1 commit2 : Sýnir muninn á þessum tvemum commit
+
+4. 	Hvað er útgáfustýring (e.version control)? 
+Það eru verkefæri sem hjálpa hópi að stjórna breytingar á source code. Geymir allar breytingar á kóðanum.
+
+5.	Hverjir eru helstu kostir við að nota GIT?
+Það er mjög auðveld leið til þess að gera flókna hluti við skrár, það er hægt að vinna margir á einni skrá og GIT heldur um allar breyturnar og setur þær saman.
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+Að það eigi að gera það fyrir hvern kóða, a.m.k. hverja 2 eða 3 sem tengjast saman, svo það er létt að skilgreina kóðan.
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+Working Directory: Það directory sem þú ert að vinna í.
+Staging Area: Staður þar sem hægt er að henda breytur.
+Repository: Geymsla sem geymir upplýsingar um verkefni.
+
+8.	Hvenær er sniðugt að nota greinar (branches)? 
+Þegar maður að ákveða t.d. hvaða liti eru bestir fyrir verkefnið.
+
+9.	Hver fann upp GIT?
+Linus Torvalds bjó GIT til.
+
+10.	Hvar er GIT helst notað?
+Það er helst notað þegar einhverjir aðilar eru að vinna í verkefni sem nota kóða.
